@@ -3,11 +3,11 @@ import pandas as pd
 import streamlit as st
 
 # Load the Dataset
-data = pickle.load(open('movie_dict.pkl', mode='rb'))
+data = pickle.load(open('C:\\Users\\layek\\ML Projects\\Project 3\\movie_dict.pkl', mode='rb'))
 movies = pd.DataFrame(data)
 
 # Load the Similarity
-similarity = pickle.load(open('similarity.pkl', mode='rb'))
+similarity = pickle.load(open('C:\\Users\\layek\\ML Projects\\Project 3\\similarity.pkl', mode='rb'))
 
 # Final Function 
 def recommend(movie):
